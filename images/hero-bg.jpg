@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="Tappezzeria nautica su misura a Napoli. Benedetto Di Lorenzo realizza cuscinerie, tendalini, coperture e lavori artigianali per barche e yacht. Esperienza e qualità al tuo servizio.">
+<link rel="canonical" href="https://benedettodilorenzo.it/">
+
+<meta name="keywords" content="tappezzeria nautica, napoli, cuscini barca, tendalini, artigiano nautico, Benedetto Di Lorenzo, coperture barca, cuscineria nautica">
+
+<meta name="author" content="Benedetto Di Lorenzo">
+
+<meta property="og:title" content="Tappezzeria Nautica Benedetto Di Lorenzo">
+<meta property="og:description" content="Scopri la qualità artigianale della tappezzeria nautica di Benedetto Di Lorenzo a Napoli.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://benedettodilorenzo.it/">
+  <title>Benedetto Di Lorenzo - Tappezzeria Nautica</title>
+  <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="svg/favicon.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Nanum+Gothic+Coding&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz@0,14..32;1,14..32&family=JetBrains+Mono:ital@0;1&display=swap" rel="stylesheet">
+
+
+
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+    window.scrollTo(0, 0);
+});
+</script>
+
+        
+     
+    
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/Flip.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/Observer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollToPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/Draggable.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/MotionPathPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/EaselPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/PixiPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/TextPlugin.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/EasePack.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/CustomEase.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (typeof AOS !== "undefined") {
+      AOS.init({
+        offset: 100,
+        once: true,
+        anchorPlacement: 'center-bottom'
+      });
+    } else {
+      console.error("AOS is not defined");
+    }
+  });
+</script>
+
+
+    
+    <script>
+    document.addEventListener("DOMContentLoaded", (event) => {
+         gsap.registerPlugin(Flip,ScrollTrigger,Observer,ScrollToPlugin,Draggable,MotionPathPlugin,EaselPlugin,PixiPlugin,TextPlugin,RoughEase,SlowMo,CustomEase)
+         gsap.from(".intro", {duration: 12, text: ""})
+        });
+     
+       </script>
+       
+
+
+  
+
+<style>
+    .menu-list{list-style: none;text-align: end;align-content: center;
+    margin-right: 12px;margin-left: auto;}
+  .items-menu{background-color: transparent;
+    border: 1px #f1f1f1 solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 38px;
+    transition: background 0.5s ease-out;}
+    .grids{display: grid;}
+    .active{background-color: #f1f1f1;transition: background 0.4s ease-in;}
+    .format-grid{color:#f1f1f1;
+    position: relative;
+    margin: 6px 0;}
+    .navbar ul .anchor span{width: 15px;
+    height: 2px;
+    justify-self: anchor-center;
+    background-color: #f1f1f1;
+    display: block;
+    transform: rotate(90deg);}
+    .navbar a{
+        color: #f1f1f1;
+    }
+    .navbar{
+    font-family: 'Inter',sans-serif;
+    width: max-content;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translate(-10%, -50%);
+    z-index: 999;
+    transition: top 0.5s ease, transform 0.5s ease;}
+    .menu-list:hover{color: #dfdfdf;}
+    .items-menu:hover{background-color: #00000049;}
+    .active:hover{background-color: #f1f1f1;}
+    .anchor {
+    height: 15px;
+    width: -webkit-fill-available;
+    margin-right: 7.5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+</style>
+
+  <style>
+
+    .navbar-away {
+      top: 25%;
+      transform: translate(-10%, -80%);
+    }
+
+    section {
+      height: 100vh;
+      scroll-snap-align: start;
+    }
+
+    html {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+body {
+    overflow-y: hidden;
+}
+  </style>
+
+
+</script>
+
+
+
+
+
+
+
+</head>
+
+<body>
+<div id="fullpage">
+<div class="navbar">
+    <ul class="grids format-grid">
+ <a data-section="home" href="#home" class="flex" onclick="activateMenu(this)"><li class="menu-list" > HOME </li><div class="items-menu active"></div></a>
+        <div class="flex anchor"><label></label> <span></span></div>
+        <a data-section="chi siamo" href="#chisiamo" class="flex"onclick="activateMenu(this)"><li class="menu-list"> CHI SIAMO </li><div class="items-menu "></div></a>
+        <div class="flex anchor"><label></label> <span></span></div>
+        <a data-section="servizi" href="#services" class="flex"onclick="activateMenu(this)"><li class="menu-list"> SERVIZI </li><div class="items-menu "></div></a>
+        <div class="flex anchor"><label></label> <span></span></div>
+        <a data-section="lavori" href="#works" class="flex"onclick="activateMenu(this)"><li class="menu-list"> LAVORI </li><div class="items-menu "></div></a>
+        <div class="flex anchor"><label></label> <span></span></div>
+        <a data-section="contattaci" href="#msg" class="flex"onclick="activateMenu(this)"><li class="menu-list"> CONTATTACI </li><div class="items-menu "></div></a>
+        <div class="flex anchor"><label></label> <span></span></div>
+        <a data-section="informazioni" href="#contact" class="flex"onclick="activateMenu(this)"><li class="menu-list"> INFORMAZIONI </li><div class="items-menu "></div></a>
+
+    </ul>
+</div>
+        <nav id="mobile">
+            <div class="menu">
+               <a href="https://benedettodilorenzo.it/" class="logo"></a> 
+                <div class="hamburger"  >
+                    <input type="checkbox" name="" id="menu-toggle" class="menu-toggle" onclick="navOpen()">
+                    <label for="menu-toggle" id="label-menu-toggle">
+                        <span class="span-hamburger first"></span>
+                        <span class="span-hamburger mid"></span>
+                        <span class="span-hamburger last"></span>
+                    </label>
+                </div>
+            </div>
+            <ul id="list">
+                <li><a href="#home"> HOME </a></li>
+                <li><a href="#services"> SERVIZI </a></li>
+                <li><a href="#chi__siamo"> CHI SIAMO </a></li>
+                <li><a href="#works"> LAVORI </a></li>
+                <li><a href="#contact"> CONTATTI </a></li>
+                <li><a href="#news"> INFORMAZIONI </a></li>
+            </ul>
+            </nav>
+    <main id="home">
+
+
+        
+        <div class="main__text">
+        <h1 data-aos="fade-up" data-aos-duration="1500">Tappezzeria Nautica BENDETTO <span>DI LORENZO</span></h1>
+        <p data-aos="fade-up" data-aos-duration="2000">La tua fonte di riferimento per la tappezzeria nautica di alta qualità.</p>
+        <button class="cta" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400" onclick="contact()">Contattaci</button>
+    </div>
+<!--<a href="#msg" id="cta-hero"></a>-->
+    <!--<div class="flag"><svg width="37" height="23" viewBox="0 0 37 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="36.7297" y="0.243164" width="21.9459" height="12.018" transform="rotate(90 36.7297 0.243164)" fill="#FF0000"/>
+        <rect x="24.7117" y="0.243164" width="21.9459" height="12.018" transform="rotate(90 24.7117 0.243164)" fill="white"/>
+        <rect x="12.6937" y="0.243164" width="21.9459" height="12.018" transform="rotate(90 12.6937 0.243164)" fill="#009951"/>
+        </svg></div>-->
+    </main>
+   
+    <section id="chisiamo">
+        <div class="chi__siamo__title ml" data-aos="fade-up" data-aos-duration="1500"><i class="icon_chisiamo"></i>
+            <h2>CHI SIAMO</h2></div>
+            <div id="chi__siamo" data-aos="fade-up" data-aos-duration="1500">
+                <div class="chisiamo_grid ml ">
+                    <div class="chi-siamo-box-intro">
+                    <div class="doppio">
+                        <div class="cerchio">
+                            <h3>+30</h3>
+                            <p>Anni d'esperienza</p>
+                    </div>
+                    <div class="cerchio">
+                        <h3>10K</h3>
+                        <p>Clienti soddisfatti</p>
+                    </div>
+                </div>
+                <p class="intro">Con 40 anni di esperienza, siamo un punto di riferimento nella nautica. Selezioniamo i migliori materiali e curiamo ogni dettaglio artigianale per creare soluzioni su misura che uniscono stile, resistenza e comfort per ambienti marittimi esclusivi.</p></div>
+
+                <div class="box_content_rev">
+                <div class="content_rev">
+                    <div class="box_rev">
+                        <div class="text_rev">
+                        <div class="rev_details">
+                            <div class="rev_img rev1"></div>
+                        <h3>Salvatore Greco</h3></div>
+                        <div class="star"></div>
+                        <p>Ho fatto personalizzare gli interni del mio yacht e il risultato è stato
+                             eccezionale! Materiali di altissima qualità, rifiniture impeccabili e un comfort straordinario.
+                              Consiglio Benedetto Di Lorenzo a chiunque voglia un lavoro su misura per la propria imbarcazione.</p>
+                    </div>
+                </div>
+                <div class="box_rev">
+                    <div class="text_rev">
+                    <div class="rev_details">
+                        <div class="rev_img rev2"></div>
+                    <h3>Carmelo Rinaldi</h3></div>
+                    <div class="star"></div>
+                    <p>Il ricamo personalizzato sul telo copribarca ha reso il mio yacht ancora più unico! Lavoro preciso e dettagliato, con la possibilità di scegliere ogni aspetto della decorazione. Servizio professionale e tempi di consegna rispettati.</p>
+                </div>
+            </div>
+            <div class="box_rev">
+                <div class="text_rev">
+                <div class="rev_details">
+                    <div class="rev_img rev3"></div>
+                <h3>Teresa Montanaro</h3></div>
+                <div class="star"></div>
+                <p>Avevo bisogno di una riparazione della tappezzeria interna del mio motoscafo, e il risultato è stato sorprendente! Hanno recuperato i sedili con materiali top di gamma, migliorando l’estetica e la comodità. Non potevo chiedere di meglio!</p>
+            </div>
+        </div>
+        <div class="box_rev">
+            <div class="text_rev">
+            <div class="rev_details">
+                <div class="rev_img rev4"></div>
+            <h3>Maria Esposito</h3></div>
+            <div class="star"></div>
+            <p>Dopo anni di usura, il mio gommone aveva bisogno di nuovi rivestimenti esterni. Il team ha utilizzato tessuti resistenti all’acqua salata e al sole, garantendomi durata ed estetica perfetta. Finalmente posso godermi le mie escursioni in mare senza pensieri!</p>
+        </div>
+    </div>
+    <div class="box_rev">
+        <div class="text_rev">
+        <div class="rev_details">
+            <div class="rev_img rev5"></div>
+        <h3>Giovanni De Santis</h3></div>
+        <div class="star"></div>
+        <p>Servizio impeccabile! Ho affidato a loro la tappezzeria della mia barca a vela e sono rimasto senza parole. Tessuti di qualità marina, lavorazione perfetta e un supporto clienti sempre disponibile. Consigliatissimi!</p>
+    </div>
+</div>
+
+
+            
+                </div>
+                <button>→</button>
+            </div>
+                </div>
+            </div>
+    </section>
+    <section id="services">
+        <div class="services__title ml" data-aos="fade-up" data-aos-duration="1500">
+            <i class="icon_services"></i><h2>SERVIZI</h2>
+        </div>
+        <div class="services__flex">
+
+            <div class="services__box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
+                <img src="img/machine.png" alt="Macchina da cucito">
+                <div class="services__text">
+                <h3>RICAMI PERSONALIZZATI</h3>
+                <p>Ricami su misura per barche e yacht, ideali per loghi, nomi o decorazioni uniche. Realizzati con precisione e materiali resistenti.</p>
+            </div>
+        </div>
+
+            <div class="services__box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                <img src="img/neddle.png" alt="Ago e cotone">
+                <div class="services__text">
+                <h3>PERSONALIZZAZIONE INTERNI</h3>
+                <p>Trasformiamo interni nautici con soluzioni su misura, dai tessuti pregiati ai dettagli artigianali, creando ambienti eleganti e funzionali per ogni esigenza.</p>
+            </div>
+        </div>
+        <div class="services__box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+            <svg width="86" height="91" viewBox="0 0 86 91" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin:25px 0;">
+                <path d="M45.014 1.65243L45.0274 1.65849L45.0409 1.66423L78.3856 15.8132L78.3872 15.8138C81.8613 17.2824 84.4218 20.6959 84.4062 24.7868C84.3183 42.1509 77.1672 73.6757 47.2914 87.9807L47.2912 87.9808C44.6754 89.2339 41.6371 89.2339 39.0213 87.9808L39.0211 87.9807C9.14492 73.6756 1.99405 42.1501 1.90632 24.7861C1.89101 20.6955 4.45139 17.2823 7.92532 15.8138L7.92666 15.8133L41.2891 1.66433L41.308 1.65631L41.3266 1.64768C41.8842 1.3893 42.519 1.25 43.1562 1.25C43.7915 1.25 44.4306 1.38853 45.014 1.65243ZM43.6441 10.6783L41.9062 9.94166V11.8291V78.7842V80.7793L43.7015 79.909C68.7618 67.7602 75.4113 40.9678 75.5728 25.0522L75.5813 24.2153L74.8107 23.8886L43.6441 10.6783Z" fill="#aaaaaa" stroke="#06162C" stroke-width="2.5"/>
+                </svg>
+            <div class="services__text">
+            <h3>RIVESTIMENTO ESTERNI</h3>
+            <p>Realizziamo rivestimenti esterni unici per yacht e gommoni, utilizzando materiali selezionati per garantire eleganza e durata in ogni condizione marina.</p>
+        </div>
+    </div>
+                <div class="services__box" data-aos="fade-up" data-aos-duration="2000">
+                <img src="img/wrecnh.png" alt="Creazione">
+                <div class="services__text">
+                <h3> PROGETTAZIONE E CONSULENZA </h3>
+                <p>Ti affianchiamo nella scelta dei tessuti, valutando stile, funzionalità. Grazie alla nostra esperienza, troviamo la soluzione ideale per ogni tipo di imbarcazione.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="works">
+        <div class="works__title ml" data-aos="fade-up" data-aos-duration="1500">
+            <i class="icon_works"></i><h2>LAVORI</h2>
+        </div>
+        <div class="works__gallery">
+            <div class="box__categories__works tpinterna" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200"><a href="https://benedettodilorenzo.it/tappezzeria-interna.php"></a></div>
+             <div class="box__categories__works poltrona" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200"><a href="https://benedettodilorenzo.it/tappezzeria-esterna.php"></a></div>
+        </div>
+    </section>
+
+    <section id="msg">
+        <div class="works__title ml" data-aos="fade-up" data-aos-duration="1500">
+            <i class="icon_works"></i><h2>CONTATTI</h2>
+        </div>
+        <div class="msg_box">
+            <div class="msg_box_text"><p>Rivolgiti ad un esperto del settore, compila con i tuoi dati e ti richiameremo.</p></div>
+        <div class="grid" style="flex-direction: row;margin: 0 auto;gap: 50px;padding: 20px 0;flex-wrap: nowrap;">
+           <div class="box_box_img"><div class="container-text">
+           </div> </div>
+           <a href="#form" class="underline-text-mobile" > CONTATTACI </a>
+           <div class="form" style="">
+            <form id="myForm" action="https://benedettodilorenzo.it/email.php" method="post">
+                <div class="box-from-prima-sezione">
+                    <label>Nome</label>
+                    <input type="text" name="nome" id="nome" required>
+                    <label>Cognome</label>
+                    <input type="text" name="cognome" id="cognome" required>
+                    <label>Email</label>
+                    <input type="email" name="email" required>
+                    <label>Numero di Telefono</label>
+                    <input type="tel" name="telefono" id="telefono" required>
+                    <label>Servizi</label>
+                    <select name="servizi" id="servizi" placeholder=" ">
+                        <option value="" disabled selected>Seleziona il servizio</option>
+                        <option value="Realizzazione">Realizzazione</option>
+                        <option value="Ricami Personalizzati">Ricami Personalizzati</option>
+                        <option value="Altro">Altro...</option>
+                     </select>
+                     
+                </div>
+                <div class="box-from-seconda-sezione">
+                    <label>Seleziona il prodotto</label>
+                  <div class="checkbox">
+                    
+                    <input type="checkbox" name="prodotti[]" value="cuscineria" id="cuscineria"><label>Cuscineria</label>
+                    <input type="checkbox" name="prodotti[]" value="coperture" id="coperture"><label>Coperture</label>
+                    <input type="checkbox" name="prodotti[]" value="rivestimenti" id="rivestimenti"><label>Rivestimenti</label>
+                    <input type="checkbox" name="prodotti[]" value="poltrone" id="poltrone"><label>Poltrone</label>
+                    <input type="checkbox" name="prodotti[]" value="moquette" id="moquette"><label>Moquette</label>
+                    <input type="checkbox" name="prodotti[]" value="cerniere" id="cerniere"><label>Cerniere</label>
+                    <input type="checkbox" name="prodotti[]" value="accessori" id="accessori"><label>Accessori</label>
+                  </div>
+                </div>
+                <div class="box-from-terza-sezione">
+                <input type="checkbox" name="privacy" required > <label>Accetto il trattamento dei miei dati personali esclusivamente per essere ricontattato.</label>
+                </div>
+            </form>
+            <button id="form_button" type="submit"> Invia </button>
+            <a href="#contact" id="info" style="text-align: center;width: fit-content;font-family: 'lato',sans-serif;font-size: 12px;font-weight: 300;color: #fff;">Scopri più informazioni</a>
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- -->
+    <section id="contact">
+        <div class="contact__title ml" data-aos="fade-up" data-aos-duration="1500">
+            <i class="icon_contact"></i><h2>INFORMAZIONI</h2>
+    </div>
+    <div id="news"data-aos="fade-up" data-aos-duration="1500">
+        <div class="news__flex" >
+        <p>Non ci sono notizie da visualizzare al momento.</p>
+        </div>
+        
+    </div>
+    <div class="contact_flex" data-aos="fade-up" data-aos-duration="1500">
+        <div class="grid_contact">
+
+        <ul>
+        <div class="contact__text">
+        <i class="icon_email"></i>
+        
+        <li><a href="mailto:info@benedettodilorenzo.it">info@benedettodilorenzo.it</a></li>
+        </div>
+        <div class="contact__text">
+            <i class="icon_phone"></i>
+           
+                <li><a href="tel:3482418145">3482418145</a></li>
+            </div>
+        <div class="contact__text">
+        <i class="icon_tel"></i>
+       
+        <li><a href="tel:08119259096">08119259096</a></li>
+        </div>
+        <div class="contact__text">
+        <i class="icon_maps"></i>
+     
+            <li>Via Cicerone, 38, 80124, Napoli</li>
+        </div>
+            <div class="contact__text">
+        <i class="icon_clock"></i>
+            <li>Lun.-Ven.: 9:00 – 18:30 / Sab.: 9:30 – 13:30</li>
+        </div>
+
+    </ul>
+        </div>
+        <div class="grid_contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.494491390825!2d14.161465912149371!3d40.81710097125869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b0e96cd1a2a2b%3A0x19a8b0f53d542f1f!2sBenedetto%20Di%20Lorenzo%20Tappezzeria!5e0!3m2!1sit!2sit!4v1739792501801!5m2!1sit!2sit" width="890.2" height="345.44" style="border-radius:25px;border: 0.5px solid black;z-index: 1;box-shadow: -1px 5px 4px 0 #00336687;margin: 0px auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+       
+    </section>
+    </div>
+    <footer id="footer">
+        <div class="footer__flex">
+            <p>&copy Copyright 2024-2025 Benedetto Di Lorenzo - P.IVA 06773851214</p>
+            <div class="icon__footer">
+            <a href="https://www.instagram.com/benedettodilorenzo.tappnautica/"><i class="icon_footer_ig"></i></a>
+            <a href="https://www.facebook.com/BenedettoDiLorenzoTappezzeriaNautica/"><i class="icon_footer_fb"></i></a>
+            <a href="#home"><i class="icon_footer_back" ></i></a>
+        </div>
+            
+        </div>
+    </footer>
+
+
+<script>
+document.querySelector(".box_content_rev button").addEventListener("click", function () {
+    let reviews = document.querySelectorAll(".box_rev");
+    let firstBox = reviews[0];
+
+    if (!firstBox) return;
+
+    let firstParagraph = firstBox.querySelector("p");
+    if (firstParagraph) {
+        firstParagraph.style.display = "none"; // Nasconde il paragrafo del primo box
+    }
+
+    // Anima il primo box per farlo "sparire"
+    firstBox.style.transition = "opacity 0.4s ease-in-out, width 0.4s ease-in-out, margin 0.4s ease-in-out";
+    firstBox.style.opacity = "0";
+    firstBox.style.width = "0px";
+    firstBox.style.margin = "0px";
+
+    setTimeout(() => {
+        firstBox.style.display = "none"; // Nasconde il primo box
+        firstBox.style.width = "70%"; // Ripristina la dimensione originale
+        firstBox.style.margin = "25px";
+        firstBox.style.opacity = "0.5"; // Torna visibile ma semi-trasparente
+        firstBox.style.transition = "none"; // Rimuove la transizione per evitare glitch
+
+        document.querySelector(".content_rev").appendChild(firstBox);
+        firstBox.style.display = "block"; // Lo mostra di nuovo
+
+        // Aggiorna la visibilità dei paragrafi
+        updateVisibility();
+    }, 400); // Deve essere uguale alla durata della transizione
+});
+
+function updateVisibility() {
+    let reviews = document.querySelectorAll(".box_rev");
+
+    reviews.forEach((box, index) => {
+        let paragraph = box.querySelector("p");
+
+        if (paragraph) {
+            if (index === 0 || index === 1 || index === 2) {
+                paragraph.style.display = "block"; // Il primo e il secondo box hanno il testo visibile
+            } else {
+                paragraph.style.display = "none"; // Il resto è nascosto
+            }
+        }
+
+        // Gestione opacità
+        if (index === 0) {
+            box.style.opacity = "1";
+        } else if (index === 1) {
+            box.style.opacity = "0.5";
+        } else {
+            box.style.opacity = "0.5";
+        }
+    });
+}
+
+
+
+       </script>
+       <script>
+  document.getElementById('form_button')
+    .addEventListener('click', function() {
+      document.getElementById('myForm').submit();
+    });
+</script>
+
+       <script>/*setTimeout(() => { }, 400);*/
+var back = document.getElementsByClassName("box_box_img");
+var text = document.getElementsByClassName("container-text");
+var textUnder = document.getElementsByClassName("underline-text");
+var form = document.getElementsByClassName("form");
+var mobile = document.getElementsByClassName("underline-text-mobile");
+var msgBox = document.getElementsByClassName("msg_box");
+
+/*function contactEvent(){
+    if (window.innerWidth < 1000) {
+    for(let i = 0; i < back.length; i++){
+        textUnder[i].style.width = textUnder[i].scrollWidth + "px";
+        back[i].style.width = "700px";
+    }
+    }
+
+}
+function contactEventOff(){
+    
+    for(let i = 0; i < back.length; i++){
+        if (window.innerWidth < 1000) {
+        back[i].style.width = "min-content";
+        textUnder[i].style.width = "0px";
+        }
+    }
+}*/
+function contactOpen(){
+    for(let i= 0; i < msgBox.length; i++){
+
+    }
+}
+/* Click */
+$( ".underline-text" ).on('click', function() {
+  back[0].style.display = "none";
+  form[0].style.display = "block";
+  msgBox[0].style.width = "65%";
+});
+$( ".underline-text-mobile" ).on('click', function() {
+  back[0].style.display = "none";
+  mobile[0].style.display = "none";
+  form[0].style.display = "block";
+  if (window.innerWidth > 700) {
+            msgBox[0].style.width = "65%";
+        }else{
+            msgBox[0].style.width = "90%";
+        }
+});
+function contact(){
+    window.location.href = '#msg';
+    }
+</script>  
+<script>
+function activateMenu(element) {
+    const allMenus = document.querySelectorAll('.items-menu');
+    allMenus.forEach(menu => menu.classList.remove('active'));
+    const currentMenu = element.querySelector('.items-menu');
+    currentMenu.classList.add('active');
+}
+</script>
+<script>
+   function navOpen(){
+    const nav = document.getElementById('mobile');
+    const list = document.getElementById('list');
+    if (nav.classList.contains('open')) {
+        nav.classList.remove('open');
+        list.style.display = 'none';
+
+    } else {
+        nav.classList.add('open');
+        list.style.display = 'flex';
+    }
+};
+
+    </script>
+    <script>
+document.addEventListener('DOMContentLoaded', function () {
+  const navbar = document.querySelector('.navbar');
+  const sections = [document.querySelector('main#home'), ...document.querySelectorAll('section')];
+  const menuLinks = Array.from(document.querySelectorAll('.navbar a.flex'));
+  let isScrolling = false;
+  let currentSectionIndex = 0;
+  const scrollDelay = 1000;
+    
+    window.onload = function () {
+    history.scrollRestoration = "manual";
+    setTimeout(() => {
+        window.scrollTo(0, 0);
+    }, 50);
+};
+
+  function updateNavbar() {
+    const rect = sections[0].getBoundingClientRect();
+    if (rect.top < -50) {
+      navbar.classList.add('navbar-away');
+    } else {
+      navbar.classList.remove('navbar-away');
+    }
+  }
+
+  function activateMenu(link) {
+    document.querySelectorAll('.items-menu').forEach(item => item.classList.remove('active'));
+    link.querySelector('.items-menu')?.classList.add('active');
+  }
+
+  function updateActiveMenu() {
+    const sectionId = sections[currentSectionIndex]?.id;
+    menuLinks.forEach(link => {
+      const href = link.getAttribute('href').replace('#', '');
+      if (href === sectionId) {
+        link.querySelector('.items-menu')?.classList.add('active');
+      } else {
+        link.querySelector('.items-menu')?.classList.remove('active');
+      }
+    });
+  }
+
+  function scrollToSection(index) {
+    if (index < 0 || index >= sections.length) return;
+
+    isScrolling = true;
+    currentSectionIndex = index;
+    sections[currentSectionIndex].scrollIntoView({ behavior: 'smooth' });
+    updateActiveMenu();
+
+    setTimeout(() => {
+      isScrolling = false;
+    }, scrollDelay);
+  }
+
+  window.addEventListener('scroll', updateNavbar);
+
+  window.addEventListener('wheel', function (e) {
+    if (isScrolling) {
+      e.preventDefault();
+      return;
+    }
+
+    if (e.deltaY > 0 && currentSectionIndex < sections.length - 1) {
+      scrollToSection(currentSectionIndex + 1);
+    } else if (e.deltaY < 0 && currentSectionIndex > 0) {
+      scrollToSection(currentSectionIndex - 1);
+    }
+  }, { passive: false });
+
+  window.addEventListener('keydown', function (e) {
+    if (isScrolling) {
+      e.preventDefault();
+      return;
+    }
+
+    if (e.key === 'ArrowDown' && currentSectionIndex < sections.length - 1) {
+      scrollToSection(currentSectionIndex + 1);
+    } else if (e.key === 'ArrowUp' && currentSectionIndex > 0) {
+      scrollToSection(currentSectionIndex - 1);
+    }
+  });
+
+  menuLinks.forEach(link => {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      const targetId = this.getAttribute('href').substring(1);
+      const targetIndex = sections.findIndex(sec => sec.id === targetId);
+      if (targetIndex !== -1) {
+        scrollToSection(targetIndex);
+      }
+    });
+  });
+});
+</script>
+
+     <script>
+     
+    const sections = [document.querySelector('main#home'), ...document.querySelectorAll('section')];
+let currentIndex = 0;
+let isScrolling = false;
+
+function scrollToSection(index) {
+  if (index >= 0 && index < sections.length) {
+    isScrolling = true;
+    sections[index].scrollIntoView({
+      behavior: "smooth"
+    });
+    setTimeout(() => { isScrolling = false; }, 1000);
+  }
+}
+
+window.addEventListener("wheel", (event) => {
+  if (isScrolling) return;
+
+  if (event.deltaY > 0) {
+    currentIndex++;
+  } else {
+    currentIndex--;
+  }
+
+  currentIndex = Math.max(0, Math.min(currentIndex, sections.length - 1));
+  scrollToSection(currentIndex);
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const menu = document.querySelector("nav");
+
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 0) {
+            menu.style.position = "fixed";
+            menu.style.top = "0";
+            menu.style.width = "100%";
+        } else {
+            menu.style.position = "relative";
+        }
+    });
+});
+   </script>
+</body>
+</html>
